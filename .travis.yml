@@ -2,3 +2,11 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: oXSX4488THuBzpfPSNNReuAn7/YFsjT7d3Zp7RQl25rlZM8BK/3arNVOTrBzsvSW+oidP4UVBbN1XD0Txf3o6jgcvH9+wd0dA335j3QCdJ0hzSxOSwR2IF2Dd01WXq99U10I1OA79ubpEIYI84FxHlmVLlIoFTPasZEv/AVbUt82YDtT4W//hPFbIbE/2Zu+WktLa5dGdxdb8zBF7ean7qIOGZCrQdj9i6ink2n8vG09oQVQgtNcQPCCe3HXUF4gzi77Yndcv2sPuVXflWhGCX2P86UtSeznQKOTLHA26ThWxk4kBVWM6/TlpWucP+itXgSUOyzbEvPfzVXQEoTNHh3PbIw/NqflRCgqAPR1f2NC2TrgyItQ/ik5jHIzMyy6jUjdEx/E5+8lizvUK/X9+KbGL0P5HStgJxkTZmLKdh2f8It1rMtq6/Khc6JdcfPVKCfsECMzrPZihfvOQbxq84cQQYD8K8hoSRudcWoY078Ll+atIGl+XWgbRF3lfAMHjtM3c6YN7v5j3Ov7VG4iqqFIAC0/0Yx0oRmDkPXGq2g+XFuVaLjJgczsrWHi1WHyV0V3PvU/PIM+K5ilDpma+3VO7Cy65UGZBlDQcU/nfk7cyigq7aqRtTeFrA33VcmqDs3ucgo69hZNABA4D9+PHUyzLvQbU+2BHMjJPwZCnXE=
+  app: shielded-hollows-76955
+  on:
+    repo: thinkful-ei22/kevin-mongoose-testing-v1
+    branch: feature/with-tests
